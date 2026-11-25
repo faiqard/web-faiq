@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fa’iq Ardiyansyah — Web Developer di Surakarta</title>
+  <meta name="description" content="Portfolio Fa’iq Ardiyansyah, web developer di Surakarta. Terbuka untuk proyek website.">
+  <meta name="theme-color" content="#070707">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Dynamic Island -->
+  <div class="island" id="island" data-open="false">
+    <button class="island__bar" id="islandToggle" aria-expanded="false" aria-controls="islandPanel">
+      <span class="island__dot" aria-hidden="true"></span>
+      <span class="island__label" id="islandLabel">Terbuka untuk proyek</span>
+      <svg class="island__chev" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+    </button>
+    <div class="island__panel" id="islandPanel">
+      <nav class="island__nav" aria-label="Navigasi">
+        <a href="#beranda">Beranda</a>
+        <a href="#tentang">Tentang</a>
+        <a href="#pendidikan">Pendidikan</a>
+        <a href="#keahlian">Keahlian</a>
+        <a href="#client">Client</a>
+      </nav>
+      <div class="island__actions">
+        <a class="icon-btn" href="https://wa.me/6288221206004" target="_blank" rel="noopener" aria-label="WhatsApp">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 20.5l1.7-5.4A8.4 8.4 0 1 1 21 11.5Z"/><path d="M9 8.8c0 3.2 3 6.2 6.2 6.2l1-1.6-2-1-.9.8a4 4 0 0 1-2-2l.8-.9-1-2L9 8.8Z"/></svg>
+        </a>
+        <a class="icon-btn" href="mailto:faiqard5@gmail.com" aria-label="Email">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="m4 7 8 6 8-6"/></svg>
+        </a>
+        <a class="icon-btn" href="https://www.instagram.com/ardfaiq" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r=".6" fill="currentColor"/></svg>
+        </a>
+        <a class="icon-btn" href="https://www.linkedin.com/in/fa-iq-ardiyansyah-867853419" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 11v5M8 8v.01M12 16v-5m0 2.5c0-1.4 1-2.5 2.3-2.5S16.5 12 16.5 13.5V16"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sidebar (desktop) -->
+  <aside class="sidebar">
+    <a class="sidebar__brand" href="#beranda">
+      <span class="sidebar__mark">F</span>
+      <span>Fa’iq<br>Ardiyansyah</span>
+    </a>
+
+    <nav class="sidebar__nav" aria-label="Navigasi utama">
+      <a href="#beranda" data-nav="beranda">Beranda</a>
+      <a href="#tentang" data-nav="tentang">Tentang</a>
+      <a href="#pendidikan" data-nav="pendidikan">Pendidikan</a>
+      <a href="#keahlian" data-nav="keahlian">Keahlian</a>
+      <a href="#client" data-nav="client">Untuk client</a>
+    </nav>
+
+    <div class="sidebar__foot">
+      <p class="status"><span class="status__dot" aria-hidden="true"></span>Terbuka untuk proyek</p>
+      <ul class="social">
+        <li><a href="https://www.instagram.com/ardfaiq" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="https://www.linkedin.com/in/fa-iq-ardiyansyah-867853419" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="mailto:faiqard5@gmail.com">Email</a></li>
+      </ul>
+    </div>
+  </aside>
+
+  <main class="main">
+
+    <!-- HERO -->
+    <section class="hero" id="beranda" data-section="Beranda">
+      <div class="hero__text">
+        <p class="hero__status"><span class="status__dot" aria-hidden="true"></span>Terbuka untuk proyek</p>
+        <h1 class="hero__title">
+          <span class="line"><span>Fa’iq</span></span>
+          <span class="line"><span>Ardiyansyah</span></span>
+        </h1>
+        <p class="hero__lead">Web developer di Surakarta. Saya membuat website yang rapi, cepat, dan nyaman dipakai di layar apa pun.</p>
+        <div class="hero__cta">
+          <a class="btn btn--red" href="#client">Mulai proyek bersama</a>
+          <a class="btn btn--ghost" href="#tentang">Kenali saya</a>
+        </div>
+      </div>
+
+      <figure class="hero__photo" id="heroPhoto">
+        <div class="hero__frame">
+          <img src="assets/foto-profil.jpg" alt="Foto Fa’iq Ardiyansyah berjaket hitam dengan latar pegunungan" width="575" height="799" fetchpriority="high">
+        </div>
+      </figure>
+    </section>
+
+    <!-- TENTANG -->
+    <section class="section" id="tentang" data-section="Tentang">
+      <h2 class="section__title">Tentang saya</h2>
+      <div class="about">
+        <p class="about__text">Saya Fa’iq, web developer yang berbasis di Surakarta. Saya menyukai tampilan yang bersih dan kode yang ringan, supaya website terbuka cepat dan mudah dirawat. Saat ini saya kuliah di Politeknik Indonusa Surakarta dan terbuka untuk mengerjakan proyek website.</p>
+        <dl class="facts">
+          <div><dt>Lahir</dt><dd>31 Mei 2005 <span id="age" class="muted"></span></dd></div>
+          <div><dt>Domisili</dt><dd>Surakarta</dd></div>
+          <div><dt>Kuliah</dt><dd>Politeknik Indonusa Surakarta</dd></div>
+          <div><dt>Status</dt><dd>Terbuka untuk proyek</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- PENDIDIKAN -->
+    <section class="section" id="pendidikan" data-section="Pendidikan">
+      <h2 class="section__title">Pendidikan</h2>
+      <ol class="timeline">
+        <li class="timeline__item timeline__item--now">
+          <span class="timeline__tag">Sekarang</span>
+          <h3>Politeknik Indonusa Surakarta</h3>
+          <p>Menempuh pendidikan tinggi sambil mengerjakan proyek web.</p>
+        </li>
+        <li class="timeline__item">
+          <span class="timeline__tag">Lulusan</span>
+          <h3>SMA Negeri 1 Ngemplak</h3>
+          <p>Pendidikan menengah atas.</p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- KEAHLIAN -->
+    <section class="section" id="keahlian" data-section="Keahlian">
+      <h2 class="section__title">Keahlian</h2>
+
+      <div class="skills">
+        <article class="skill skill--wide">
+          <div class="skill__body">
+            <h3>Pengembangan web</h3>
+            <p>Membangun website dengan HTML, CSS, dan JavaScript. Fokus pada struktur yang rapi, animasi halus, dan tampilan yang responsif dari ponsel sampai desktop.</p>
+          </div>
+        </article>
+
+        <article class="skill skill--photo">
+          <figure>
+            <img src="assets/foto-bulutangkis.jpg" alt="Dua pemain bulutangkis memegang piala di podium kejuaraan di Karanganyar" width="900" height="1600" loading="lazy">
+          </figure>
+          <div class="skill__body">
+            <h3>Juara bulutangkis</h3>
+            <p>Pernah menjuarai pertandingan bulutangkis. Foto ini diambil di podium kejuaraan bulutangkis tingkat kabupaten di Karanganyar.</p>
+          </div>
+        </article>
+
+        <article class="skill skill--cert">
+          <div class="skill__body">
+            <h3>Computer Hardware Basics</h3>
+            <p>Sertifikat dari Cisco Networking Academy, terbit 18 Juli 2026. Mencakup perakitan dan perbaikan PC, perangkat laptop dan mobile, perawatan, serta standar keselamatan.</p>
+            <a class="link" href="assets/sertifikat-cisco-computer-hardware-basics.pdf" target="_blank" rel="noopener">Lihat sertifikat (PDF)</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CLIENT -->
+    <section class="section section--client" id="client" data-section="Client">
+      <div class="client">
+        <div class="client__intro">
+          <h2 class="client__title">Punya proyek website?</h2>
+          <p>Ceritakan kebutuhan Anda. Saya akan membalas lewat WhatsApp atau email secepatnya.</p>
+          <ul class="contact">
+            <li><span>WhatsApp</span><a href="https://wa.me/6288221206004" target="_blank" rel="noopener">0882-2120-6004</a></li>
+            <li><span>Email</span><a href="mailto:faiqard5@gmail.com">faiqard5@gmail.com</a></li>
+            <li><span>Instagram</span><a href="https://www.instagram.com/ardfaiq" target="_blank" rel="noopener">@ardfaiq</a></li>
+            <li><span>LinkedIn</span><a href="https://www.linkedin.com/in/fa-iq-ardiyansyah-867853419" target="_blank" rel="noopener">Fa’iq Ardiyansyah</a></li>
+          </ul>
+        </div>
+
+        <form class="form" id="clientForm" novalidate>
+          <label for="cName">Nama Anda</label>
+          <input id="cName" name="name" type="text" autocomplete="name" placeholder="Nama lengkap" required>
+
+          <label for="cNeed">Kebutuhan proyek</label>
+          <textarea id="cNeed" name="need" rows="5" placeholder="Contoh: website company profile untuk toko, 5 halaman." required></textarea>
+
+          <p class="form__error" id="formError" role="alert" hidden>Isi nama dan kebutuhan proyek terlebih dahulu.</p>
+          <button class="btn btn--red" type="submit">Kirim lewat WhatsApp</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>© <span id="year">2026</span> Fa’iq Ardiyansyah. Surakarta, Indonesia.</p>
+    </footer>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
